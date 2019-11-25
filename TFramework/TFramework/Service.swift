@@ -19,6 +19,9 @@ public class Service {
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
         
+        
+        
+        
         let vc = storyboard.instantiateInitialViewController()
         vc?.view.addSubview(webView)
     }
